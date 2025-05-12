@@ -1,0 +1,274 @@
+
+.logo{
+    width:80px; 
+	margin-left:25px;
+	margin-top: 22px;
+
+}
+ul {
+    list-style-type: none;
+	display: flex;
+    gap: 104px;
+}
+
+
+li {
+    color: white;
+    margin: 1px;
+    text-align: center;
+    padding: 43px;
+	float: right;
+ 
+}
+.back-image{
+    background-image:url("images/banner.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	height:700px;
+}
+.welcome{
+    color:white;
+	text-align:center;
+	margin-top: 20px;
+    font-size: 19px;
+}
+.csno{
+    color:white;
+	text-align:center;
+	margin:-10px;
+	font-size:50px;
+    font-family:roboto;
+}
+.pa{
+    color:white;
+	text-align:center; 
+	margin-top: 30px;
+    font-size: 16px;
+	margin-bottom: 83px;
+}
+.ab{
+    color:white;
+	text-align:center;
+}
+button.pclr {
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 16px 60px;
+    border-radius: 34px;
+    border:2px solid white;
+	background-color:black;
+	color:white;
+}
+.img{
+    float: right;
+	diaplay:flex;
+
+}
+.nav-bar{     
+    display:flex;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+	justify-content: space-between;
+}
+.par{
+    color:Black;
+	font-size: 17px;
+    font-weight: 100;
+    font-family: math;
+	
+}
+.sp {
+    display: flex;
+    gap: 72px;
+    padding: 90px;
+    justify-content: center;
+}
+.hd{
+    text-align: center;
+    font-size: 46px;
+	
+}
+
+.hicon {
+    display: flex;
+    align-items: center;
+    
+}
+.hicon-1 {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    
+}
+.read {
+    font-size: 21px;
+	padding: 16px 36px;
+    border-radius: 34px;
+	background-color:#bf3d42;
+	color:white;
+	border:none;
+      
+}
+.he2{
+    font-size:45px;
+}
+    
+.parg{
+    text-align:center;
+}
+.background-2{
+    background-color:black;
+	height:550px;
+}
+.hico1 {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    
+}
+.hico2 {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	   
+    
+}
+.hico3 {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	   
+    
+}
+.hico4{
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	   
+    
+}
+
+#white{
+    color:white;
+}
+.clr{
+    text-align:center;
+}
+.img1{
+    border:2px solid white;
+	padding: 64px 113px !important;
+    border-radius: 23px;
+}
+.img2{
+    border:2px solid white;
+	padding: 64px 113px !important;
+    border-radius: 23px;
+}
+.img3{
+    border:2px solid white;
+	padding: 64px 113px !important;
+    border-radius: 23px;
+}
+.img4{
+    border: 2px solid white;
+    padding: 64px 113px !important;
+    border-radius: 23px;
+}
+.q {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    margin-top: 53px;
+}
+.img1:hover {
+    border: 2px solid pink;
+}
+.img2:hover{
+    border:2px solid pink;
+}
+.img3:hover {
+    border: 2px solid pink;
+}
+.img4:hover {
+    border: 2px solid pink;
+}
+.alcenter{
+    text-align:center;
+}
+.button{
+    border-radius:31px;
+	border: 2px solid #bf3d42;
+	text-align:center;
+	font-weight: bold;
+	background-color:black;
+	color:white;
+	padding: 16px 60px;
+}
+
+.button:hover{
+	background-color:#bf3d42;
+	
+}
+.display{
+    display:flex;
+	justify-content: center;
+	gap: 33px;
+}
+.plan {
+    border: 2px solid #625d5d;
+    padding: 1px 64px;
+    border-radius: 23px;
+    margin-top: 55px;
+}
+.cred{
+    color:#bf3d42;
+}
+.fsize{
+    font-size: 65px;
+	color:#625d5d;
+}
+.month{
+    color:#625d5d;
+}
+.pcolor {
+    color: #625d5d;
+    font-size: 20px;
+    font-weight: 100;
+	text-align:center;
+}
+
+.buybutton {
+    border-radius: 31px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #bf3d42;
+    color: white;
+    padding: 20px 55px;
+    margin: 46px;
+    border: none;
+}
+.buybutton:hover {
+    border:3px solid #bf3d42 ;
+    background-color: Black;
+	background-border:#bf3d42;
+   
+}
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+.stycen{
+    text-align:center;
+}
+.quote{
+    display:flex;
+	justify-content: center;
+	margin-top: 24px;
+	align-items: center;
+
+}
