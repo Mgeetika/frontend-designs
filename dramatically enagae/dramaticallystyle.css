@@ -1,0 +1,415 @@
+.display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -42px;
+    gap: 392px;
+}
+.display-flex1 {
+    display: flex;
+    color: #dd845a;
+    align-items: center;
+    font-size: 34px;
+    margin-top: 14px;
+}
+.display-flextwo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 212px;
+    font-size: 39px;
+    margin-top: -26px;
+    gap: 26px;
+    margin-bottom: 100px;
+   
+}
+.display-flexed {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.logo{
+    width:34px;
+	heigth:34px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: -59px;
+}
+li {
+    text-align: center;
+    padding: 34px;
+}
+.bi-fire::before {
+    content: "\f7f6";
+    
+}
+.bi-list::before {
+    content: "\f479";
+    text-align: center;
+    color: #dd845a;
+	font-size: 34px;
+    margin-top: 14px;
+}
+.dropdown {
+  position: relative;
+  font-size: 34px;
+  background-color:transparent;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  font-size:16px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/*.drop-content{
+	font-size:16px;
+}*/	
+	
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .bi-list {background-color: Black}
+
+.back-img {
+    background-image: url("images/light_bulb.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.button {
+    background-color: orange;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    margin-left: 214px;
+}
+.bi-grid-3x3-gap-fill::before {
+    content: "\f3f8";
+    color: white;
+}
+.h {
+    color: white;
+    font-family: inherit;
+}
+.p {
+    margin-top: -147px;
+    padding-left: 215px;
+    color: white;
+    font-size: 27px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #dd845a;
+    font-weight: 100;
+    font-size: 37px;
+    font-family: inherit;
+}
+.p1 {
+    text-align: center;
+    font-size: 21px;
+    color: #959595;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-left: 183px;
+    padding-right: 191px;
+}
+
+.sizeimg {
+    width: 100%;
+    height: 242px;
+}
+
+.image1 {
+    border-radius: 50%;
+}
+.back2img{
+    background-image: url("images/map.jpg");
+	height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.h2{
+    color:#dd845a;
+    text-align: center;
+}
+.dflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+.p5 {
+    text-align: center;
+    font-size: 21px;
+    color: #959595;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 14px;
+}
+.p6{
+    color: #dd845a;
+    font-size: 34px;
+    margin: 8px;
+}
+.bi-telephone::before {
+    content: "\f5c1";
+    color: #959595;
+}
+.gallery {
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 258px;
+}
+
+.h-seven {
+    color: #dd845a;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+.imgs {
+    height: 150px;
+    margin-top: 3px;
+    padding-left: 11px;
+}
+
+.desc {
+    padding-bottom: 23px;
+    line-height: 1.42857143;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.h-desc {
+    color: #dd845a;
+    font-weight: 100;
+    padding-left: 13px;
+    font-family: inherit;
+}
+.sizeimgone {
+    background-image: url(images/mung_beans.jpg);
+
+}
+.sizeimgtwo{
+    background-image:url("images/coffee_beans_1.jpg");
+    
+}	
+.sizeimgthree{
+    background-image:url("images/grapes.jpg");
+  
+}		
+.imgflex-container{
+    display:flex;
+}	
+.sizeimgone, .sizeimgtwo, .sizeimgthree {
+    background-repeat: no-repeat;
+    padding: 40px;
+    width: 100%;
+    background-position: center;
+    border: 1px solid black;
+    background-size: cover;
+}
+.sizeimgone:hover {
+    background-size: 110%;
+    border: 5px solid #000;
+}
+.sizeimgtwo:hover {
+    background-size: 110%;
+    border: 5px solid #000;
+}
+.sizeimgthree:hover {
+    background-size: 110%;
+    border: 5px solid #000;
+}
+.imgflex-container {
+    overflow: hidden;
+}
+
+.h1,.h2,.p6{
+    font-family:inherit;
+}
+.h-un {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 69px;
+    text-shadow: 2px 2px 8px #0f0f0f;
+}
+.image-service{
+    border-radius:50%;
+}
+.table-size {
+    text-align: center;
+    padding-left: 305px;
+    margin-top: 64px;
+}
+.fotter-flex{
+    display:flex;
+}
+.fotter-flex {
+    display: flex;
+    justify-content: left;
+    background-color: #f7f7f7;
+    gap: 260px;
+    padding-left: 200px;
+}
+.all-clr {
+    color: gray;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.black-head{
+    color:black;
+    font-size: 19px;
+}
+.news-flex {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+.back-img {
+    background-image: url(images/light_bulb.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: 398px;
+}
+
+.display-flextwo {
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    font-size: 18px;
+    gap: 17px;
+}
+.p {
+    margin-top: -147px;
+    padding-left: 19px;
+    color: white;
+    font-size: 23px;
+    padding-top: 31px;
+}
+.button {
+    background-color: orange;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    margin-left: 19px;
+}
+.p1 {
+    text-align: center;
+    font-size: 21px;
+    color: #959595;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #dd845a;
+    font-weight: 100;
+    font-size: 37px;
+    margin-bottom: -13px;
+}
+.bi-grid-3x3-gap-fill::before {
+    content: "\f3f8";
+    color: white;
+    font-size: 65px;
+}
+
+.h-desc {
+    color: #dd845a;
+    font-weight: 100;
+    font-size: 26px;
+}
+.imgflex-container{
+    display:block;
+}
+.display-flexed {
+    display: block;
+   
+}
+.image-service {
+    border-radius: 50%;
+    height: 193px;
+}
+
+.h-seven {
+    color: #dd845a;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.gallery {
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 356px;
+    margin-bottom: 12px;
+}
+.imgs {
+    height: 150px;
+    margin-top: 14px;
+    padding-left: 53px;
+}
+.h-seven {
+    color: #dd845a;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.fotter-flex {
+    display: block;
+    background-color: #f7f7f7;
+    padding-left: 0px;
+}
+.display-flex1 {
+    display: flex;
+    color: #dd845a;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -42px;
+    gap: 235px;
+}
+}
