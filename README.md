@@ -22,13 +22,13 @@ Each folder/project represents different concepts, designs, or components I expl
 
 Each folder is a separate mini project or component I built during my practice sessions. Some are complete websites, while others are UI elements like cards, navbars, or forms.
 
----
+
 
 ##  Note
 
 This code is purely for learning and practice purposes. Feedback and suggestions are always welcome!
 
----
+
 
 ##  Author
 
